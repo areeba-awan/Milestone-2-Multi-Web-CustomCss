@@ -1,0 +1,85 @@
+
+/* Container for the entire page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* Equivalent to Tailwind's bg-gray-100 */
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Card Container */
+  .login-card {
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    width: 100%;
+    max-width: 40%;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Equivalent to Tailwind's shadow-2xl */
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 1024px) {
+    .login-card {
+      max-width: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login-card {
+      max-width: 80%;
+    }
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #374151; /* Equivalent to Tailwind's text-gray-700 */
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Equivalent to Tailwind's space-y-6 */
+  }
+  
+  /* Input Fields */
+  .form-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #d1d5db; /* Equivalent to Tailwind's border-gray-300 */
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #3b82f6; /* Equivalent to Tailwind's focus:outline-blue-500 */
+  }
+  
+  /* Button */
+  .form-button {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #ae3bf6; /* Equivalent to Tailwind's bg-blue-500 */
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-button:hover {
+    background-color: #821c8b; /* Equivalent to Tailwind's hover:bg-blue-700 */
+  }
+  

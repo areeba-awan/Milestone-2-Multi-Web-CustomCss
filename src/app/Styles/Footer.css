@@ -1,0 +1,18 @@
+.footer {
+    background-color: #20a2a0; /* Equivalent to Tailwind's gray-500 */
+    height: 64px; /* 16 * 4px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .footer-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+  
